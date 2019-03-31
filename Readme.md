@@ -23,4 +23,5 @@ detection directory.
     python make_tfrecord.py --data_path=./path/to/data --output_path=mytfrecord.record
 
 *Note: The data_path should contain both the images and the xml files
- with the bounding box information*
+ with the bounding box information. Only bounding box type labelling
+ is supported.*
