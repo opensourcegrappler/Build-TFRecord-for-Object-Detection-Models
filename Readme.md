@@ -5,7 +5,7 @@
 Label your images using a tool such as the
 [labelImg](https://github.com/tzutalin/labelImg) tool.
 
-### Dependencies
+## Dependencies
 
 Install the Tensorflow models repository inside the top level of this
 project. (This project builds on example code from this Tensorflow
