@@ -2,12 +2,14 @@
 
 ## Labelling Data
 
-Label your images using a tool such as the [labelImg](https://github.com/tzutalin/labelImg) tool.
+Label your images using a tool such as the
+[labelImg](https://github.com/tzutalin/labelImg) tool.
 
 ### Dependencies
 
 Install the Tensorflow models repository inside the top level of this
-project.
+project. (This project builds on example code from this Tensorflow
+Models project, Thanks!)
 
 * [TensorFlow Models](https://github.com/tensorflow/models)
 - Follow the installation instructions for that project in the object
@@ -20,4 +22,5 @@ detection directory.
 
     python make_tfrecord.py --data_path=./path/to/data --output_path=mytfrecord.record
 
-*Note: The data_path should contain both the images and the xml files with the bounding box information*
+*Note: The data_path should contain both the images and the xml files
+ with the bounding box information*
